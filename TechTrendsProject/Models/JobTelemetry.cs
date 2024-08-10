@@ -32,4 +32,6 @@ public partial class JobTelemetry
     public DateTime EntryDate { get; set; }
 
     public Guid ProjectId { get; set; }
+
+    
 }

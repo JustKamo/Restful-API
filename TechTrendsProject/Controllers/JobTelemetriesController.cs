@@ -163,6 +163,33 @@ namespace TechTrendsProject.Controllers
             return savingsResult;
         }
 
+        [HttpGet("savings/project/{projectId}")]
+        public IActionResult GetSavingsByProjectId(Guid projectId, DateTime startDate, DateTime endDate)
+        {
+            // Retrieve JobTelemetries directly where ProjectId matches
+            var telemetries = _context.JobTelemetries
+                .Where(jt => jt.ProjectId == projectId
+                             && jt.EntryDate >= startDate
+                             && jt.EntryDate <= endDate);
+
+            // Check if ExcludeFromTimeSaving is set for any telemetry
+            var filteredTelemetries = telemetries
+                .Where(t => !t.ExcludeFromTimeSaving.HasValue || !t.ExcludeFromTimeSaving.Value);
+
+            var totalTimeSaved = filteredTelemetries.Sum(t => t.HumanTime ?? 0); // Handle potential null HumanTime
+            var totalCostSaved = 0; // Assuming no CostSaved property
+
+            var savings = new
+            {
+                ProjectId = projectId,
+                TotalTimeSaved = totalTimeSaved,
+                TotalCostSaved = totalCostSaved
+            };
+
+            return Ok(savings);
+        }
+
+
         public class SavingsResult
         {
             public int TotalHumanTimeSaved { get; set; }
