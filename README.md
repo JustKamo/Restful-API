@@ -17,6 +17,8 @@ This API will be used by authorized users to fetch data that will be used to rep
   GET method named GetSavings in the API that queries all telemetry per client and calculates the cumulative time and cost 
   saved
 
+#Project URL
+	https://techtrendsproject.azurewebsites.net
 #Reference List
 OpenAI, 2024. ChatGPT: A Large Language Model for Conversational AI. Available at: https://www.openai.com/chatgpt [Accessed 11 Aug. 2024].
 Fielding, R.T., 2000. Architectural Styles and the Design of Network-based Software Architectures. Doctoral dissertation. University of California, Irvine.
