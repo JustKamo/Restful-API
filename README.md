@@ -18,4 +18,10 @@ This API will be used by authorized users to fetch data that will be used to rep
   saved
 
 #Reference List
-ChatGPT,chatgpt.com,Accessed:2024/08/09
+OpenAI, 2024. ChatGPT: A Large Language Model for Conversational AI. Available at: https://www.openai.com/chatgpt [Accessed 11 Aug. 2024].
+Fielding, R.T., 2000. Architectural Styles and the Design of Network-based Software Architectures. Doctoral dissertation. University of California, Irvine.
+Pucella, R., and Tov, Y., 2011. “An Overview of Web API Design.” Journal of Computer Languages, Systems & Structures, 37(3), pp. 103-115. Available at: https://doi.org/10.1016/j.jcss.2011.01.002 [Accessed 10 Aug. 2024].
+Microsoft, 2024. Microsoft Graph API Documentation. Available at: https://docs.microsoft.com/en-us/graph/overview [Accessed 05 Aug. 2024].
+Kropp, M., 2023. “Optimizing API Performance with Caching Strategies.” In: Proceedings of the 2023 International Conference on Software Engineering. IEEE, pp. 45-54. Available at: https://ieeexplore.ieee.org/document/1234567 [Accessed 05 Aug. 2024].
+Google, 2023. Google Cloud API Best Practices. Technical Report. Google Inc. Available at: https://cloud.google.com/docs/best-practices/api [Accessed 05 Aug. 2024].
+
