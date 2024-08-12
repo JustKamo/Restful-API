@@ -7,7 +7,7 @@ This report will be used to update stakeholders on developments of the project a
 
 # API use
 This API will be used by authorized users to fetch data that will be used to represent relevant information granted they have access to the token to use this API 
-#Endpoints
+# Endpoints
 	GET method that will retrieve one Telemetry from the database based on the ID parsed through
 	POST method that will create a new Telemetry entry on the database
 	PATCH method that will update an existing Telemetry entry on the database
@@ -17,9 +17,10 @@ This API will be used by authorized users to fetch data that will be used to rep
   GET method named GetSavings in the API that queries all telemetry per client and calculates the cumulative time and cost 
   saved
 
-#Project URL
-	https://techtrendsproject.azurewebsites.net
-#Reference List
+# Project URL
+https://techtrendsproject.azurewebsites.net  
+
+# Reference List
 OpenAI, 2024. ChatGPT: A Large Language Model for Conversational AI. Available at: https://www.openai.com/chatgpt [Accessed 11 Aug. 2024].
 Fielding, R.T., 2000. Architectural Styles and the Design of Network-based Software Architectures. Doctoral dissertation. University of California, Irvine.
 Pucella, R., and Tov, Y., 2011. “An Overview of Web API Design.” Journal of Computer Languages, Systems & Structures, 37(3), pp. 103-115. Available at: https://doi.org/10.1016/j.jcss.2011.01.002 [Accessed 10 Aug. 2024].
